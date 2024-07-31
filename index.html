@@ -39,17 +39,79 @@
           </li>
         </ul>
       </address>
-      <button class="burger-btn" type="button">
+      <button class="burger-btn" type="button" data-menu-open>
         <svg class="burger-icon" width="24" height="24">
-        <use href="./images/icons.svg#burger"></use>
-      </svg>
-    </button>
+          <use href="./images/icons.svg#burger"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-container">
+        <button class="close-btn mobile-menu-close-btn" data-menu-close>
+          <svg class="close-icon-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+              <a href="./index.html" class="nav-link current">Studio</a>
+            </li>
+            <li class="mobile-nav-item"><a href="" class="nav-link">Portfolio</a></li>
+            <li class="mobile-nav-item"><a href="" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mobile-address">
+          <ul class="mobile-address-list">
+            <li class="address-item">
+              <a class="mobile-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-item">
+              <a class="mobile-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="mobile-list-icon">
+          <li class="mobile-list-icon-item">
+            <a class="mobile-list-icon-link" href="">
+              <svg class="soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-list-icon-item">
+            <a class="mobile-list-icon-link" href="">
+              <svg class="soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-list-icon-item">
+            <a class="mobile-list-icon-link" href="">
+              <svg class="soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-list-icon-item">
+            <a href="" class="mobile-list-icon-link">
+              <svg class="soc-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
 
   <main>
+
     <!-- section1 -->
-    <section class="hidden section-first">
+    <section class="section-first">
       <div class="container section-first-container">
         <h1 class="section-first-title">
           Effective Solutions for Your Business
@@ -432,14 +494,14 @@
         <p class="footer-form-subtitle">Subscribe</p>
         <form class="footer-form">
           <label class="footer-label">
-          <input class="footer-input" type="email" placeholder="E-mail" name="email">
-        </label>
+            <input class="footer-input" type="email" placeholder="E-mail" name="email">
+          </label>
           <button class="footer-form-btn" type="submit">Subscribe
             <svg class="footer-btn-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
           </button>
-        
+
         </form>
       </div>
     </div>
@@ -448,7 +510,7 @@
   <div class="hidden modal-overlay">
     <div class="modal">
       <button class="modal-close-btn" type="button">
-        <svg class="modal-close-icon-btn" width="8" height="8">
+        <svg class="close-icon-btn" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg>
       </button>
@@ -495,8 +557,7 @@
         <div class="input-box-comment">
           <label class="modal-label" for="user-comment">Comment
           </label>
-          <textarea class="modal-textarea" id="user-comment" name="user-comment" placeholder="Text input"
-            required>
+          <textarea class="modal-textarea" id="user-comment" name="user-comment" placeholder="Text input" required>
           </textarea>
         </div>
 
@@ -518,6 +579,10 @@
       </form>
     </div>
   </div>
+
+  <script src="./js/menu.js">
+    
+  </script>
 </body>
 
 </html>

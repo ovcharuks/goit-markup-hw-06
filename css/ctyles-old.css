@@ -13,62 +13,6 @@
 
 /* section 1 */
 
-.section-first {
-  background-color: #2e2f42;
-  padding: 188px 0;
-  background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg);
-  background-size: cover;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-
-.section-first-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-  max-width: 526px;
-  /* max-width: 496px; */
-  margin: 0 auto;
-
-}
-
-.button {
-  background: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 48px;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button:hover,
-.button:focus {
-  background: #404bbf;
-  /* transition:  250ms cubic-bezier(0.4, 0, 0.2, 1) */
-}
 
 /* section 2 */
 
@@ -193,7 +137,6 @@
 
 }
 
-.section-third-list-icon-item {}
 
 
 
