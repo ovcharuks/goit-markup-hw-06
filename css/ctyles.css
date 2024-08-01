@@ -662,3 +662,121 @@ color: #434455;
   }
   
   }
+
+  /* Section 4 */
+
+  .section-fourth {
+    padding: 96px 16px;
+  }
+
+  .section-fourth-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
+  }
+
+  .section-fourth-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+  }
+
+  .section-fourth-item {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
+  }
+
+  .section-fourth-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
+  .section-fourth-photo-caption {
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+  }
+
+  .section-fourth-tumba {
+
+    position: relative;
+    /* width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #bdbdbd; */
+    overflow: hidden;
+  }
+
+  .section-fourth-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    background-color: #4d5ae5;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+  
+    transform: translatey(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .section-fourth-item:hover .section-fourth-overlay,
+  .section-fourth-item:foc .section-fourth-overlay {
+    transform: translatey(0);
+    content: none;
+  }
+  
+  .section-fourth-titlephoto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  
+  .section-fourth-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-top: 8;
+  }
+  @media screen and (min-width:768px) {
+    
+    .section-fourth-list {
+      column-gap: 24px;
+      row-gap: 72px;
+    }
+  }
+  @media screen and (min-width:768px) and
+  (min-width:1157px) {
+
+  .section-fourth-item{
+    max-width: calc((100% -24px)/2);
+  }
+ 
+  }
+
+  @media screen and (min-width:1158px) {
+    .section-fourth {
+      padding: 120px 0;
+    }
+    .section-fourth-list {
+      row-gap: 40px;
+    }
+    }
