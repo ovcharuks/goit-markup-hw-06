@@ -704,7 +704,8 @@ address {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-fourth-item {
