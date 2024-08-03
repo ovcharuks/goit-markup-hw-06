@@ -1158,7 +1158,7 @@ max-height: 623px;
 @media screen and (min-width:768px) {
   .modal {
     max-width: 408px;
-    height: 584px;
+    max-height: 584px;
   }
 
   .modal-close-btn:hover,
